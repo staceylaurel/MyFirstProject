@@ -1,21 +1,21 @@
 #board {
-    padding: 3em 0;
-    margin: 1.5em;
+    padding: 3em;
     text-align: center;
 }
 
-#sq:hover { 
-    color: yellow;
-}
-
 .row {
-    width: 302px;
+    clear: both;
     margin: 0 auto;
+    width: 302px;
 }
 
 .row > div{ 
+    float: left;
     height: 100px;
     width: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
 }
 
 .top {
