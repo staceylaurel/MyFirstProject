@@ -46,4 +46,26 @@ for (let i = 0; i < info.length; i++) {
 
 para.textContent = info;
 
-break;
+//11. Pets
+console.log(add[CockerDoodle[ + Barkley]]);
+
+var animal=[
+    {breed= CockerDoodle},
+    {name= Barkley},];
+
+function add (breed, name){
+    return breed + name;
+}
+
+//Look at all the people
+
+i=name
+var person=[ 
+{name:'Eric', age: 21},
+{name:'Kevin', age: 37},
+{name:"Henry", age: 18},
+{name:"Sam", age: 11}  
+];
+
+function checkAge([age, name]){
+    if (age > 21){
