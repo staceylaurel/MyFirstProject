@@ -9,7 +9,7 @@ function cellClicked(){
 }
 
 //if else statements
-cells[2].textContent
+//cells[2].textContent
 
 // === is left handside ===to right handside
 
@@ -22,3 +22,5 @@ cells[2].textContent
 //    } else if () {    
 //    }
 //}
+
+

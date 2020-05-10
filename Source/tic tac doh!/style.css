@@ -35,4 +35,23 @@
 
 }
 
+.winning-message{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    color: lightseagreen;
+    font-size: 3rem;
+}
 
+.winning-message button button:hover {
+    font-size: 3rem; 
+    font-color: teal;
+    background-color: lightskyblue ;
+    border: 1px solid teal;
+    padding: .25em .5em;
+    cursor: pointer
+}
