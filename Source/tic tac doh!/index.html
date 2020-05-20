@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel= "stylesheet" type= "text/css" >
-    <script src='app.js' defer></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
     <title> Tic Tac Doh</title>
-    <body>
-        <div id="board">
-            <h1>Tic Tac Toe</h1> 
-                <div class="row"> 
-                    <div class="top left"> </div>
-                    <div class="top center"> </div> 
-                    <div class="top right" > </div> 
-                </div>
-                <div class="row">
-                    <div class="middle left"> </div>
-                    <div class="middle center"> </div>
-                    <div class="middle right"> </div>
-                </div>
-                <div class="row">
-                    <div class="bottom left"> </div>
-                    <div class="bottom center"> </div>  
-                    <div class="bottom right"> </div> 
-                </div> 
-                    <div class="winning-message" id="winningMessage">
-                    <div data-winning-message-text> X Wins!</div>
-                    <button id= "restartButton"> Restart</button>
+
+<body>
+    <div id="board">
+        <h1>Tic Tac Toe</h1>
+        <div class="row">
+            <div class="top left"> </div>
+            <div class="top center"> </div>
+            <div class="top right"> </div>
         </div>
-    </body>
+        <div class="row">
+            <div class="middle left"> </div>
+            <div class="middle center"> </div>
+            <div class="middle right"> </div>
+        </div>
+        <div class="row">
+            <div class="bottom left"> </div>
+            <div class="bottom center"> </div>
+            <div class="bottom right"> </div>
+        </div>
+        <div class="winning-message" id="winningMessage">
+            <div id= "winning-message-text"></div>
+            <button id="restart-button"> Restart</button>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+
 </html>

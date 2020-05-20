@@ -3,6 +3,13 @@
     text-align: center;
 }
 
+h2 {
+    margin: 0 auto;
+    font-size: 25px;
+    margin: 10px;
+    color: s
+    }
+
 .row {
     clear: both;
     margin: 0 auto;
@@ -39,19 +46,33 @@
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     background-color: white;
     justify-content: center; 
     align-items: center;
     display: flex;
     color: lightseagreen;
     font-size: 3rem;
+    flex-direction: column;
+    display: none;
 }
 
-.winning-message button button:hover {
-    font-size: 3rem; 
-    font-color: teal;
-    background-color: lightskyblue ;
-    border: 1px solid teal;
+.winning-message button {
+    
+    font-size: 1rem;
+    background-color:white;
+    border: 1px solid black;
     padding: .25em .5em;
-    cursor: pointer
+    cursor: pointer;
+}
+
+.winning-message button:hover {
+    background-color: turquoise;
+    color: white;
+    border-color: whitesmoke;
+}
+
+.winning-message.show {
+    display: flex;
 }
