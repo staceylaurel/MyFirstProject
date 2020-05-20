@@ -14,14 +14,14 @@ function displayDescription(myName, myCareer, myDescription) {
 
 console.log("My Interests: ");
 
-displayInterests("Learning Korean"); 
-displayInterests("Playing D&D"); 
-displayInterests("Enneagram 1 w2"); 
-displayInterests("Traveling the world"); 
+displayInterests("Learning Korean");
+displayInterests("Playing D&D");
+displayInterests("Enneagram 1 w2");
+displayInterests("Traveling the world");
 displayInterests("Meeting new people");
 
 function displayInterests(myInterest) {
-    console.log("*  " + myInterest); 
+    console.log("*  " + myInterest);
 }
 
 console.log("My Previous Experiences: ");
@@ -34,22 +34,21 @@ function displayPosition(companyName, jobTitle, jobDescription) {
     console.log("*  " + companyName + ", " + jobTitle + " - " + jobDescription + ". ");
 };
 
-My Skills:
 console.log("My Skills: ");
 
-displaySkill("Speak Spanish and French", true); 
-displaySkill("1Shoppingcart", false); 
+displaySkill("Speak Spanish and French", true);
+displaySkill("1Shoppingcart", false);
 displaySkill("Facebook analytics", false);
-displaySkill("Social media wizard across mutliple platforms", true); 
-displaySkill("Problem solver", false); 
-displaySkill("Communication- one on one or to the universal audience", true); 
-displaySkill("Propresentor", true); 
-displaySkill("MarkdownReading manuals", false); 
+displaySkill("Social media wizard across mutliple platforms", true);
+displaySkill("Problem solver", false);
+displaySkill("Communication- one on one or to the universal audience", true);
+displaySkill("Propresentor", true);
+displaySkill("MarkdownReading manuals", false);
 
 function displaySkill(mySkill, bamBam) {
-    if(bamBam == true) { 
+    if (bamBam == true) {
         console.log("*  BAM: " + mySkill);
-    } else if(bamBam == false) {
-        console.log("*  " + mySkill); 
+    } else if (bamBam == false) {
+        console.log("*  " + mySkill);
     };
 }
